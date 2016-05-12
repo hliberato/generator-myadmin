@@ -7,14 +7,20 @@ module.exports = yeoman.Base.extend({
   prompting: function () {
     // Have Yeoman greet the user.
     this.log(yosay(
-      'Welcome to the kickass ' + chalk.red('generator-myadmin') + ' generator!'
+      'Welcome to the ' + chalk.red('Focusnetworks Myadmin') + ' generator!'
     ));
 
     var prompts = [{
-      type: 'confirm',
+      type: 'input',
+      name: 'name',
+      message: 'Qual o nome do seu projeto?',
+      default: ''
+    },
+    {
+      type: 'checkbox',
       name: 'someAnswer',
-      message: 'Would you like to enable this option?',
-      default: true
+      message: 'Quais modelos default gostaria de adicionar?',
+      choices: ['faq', 'news', 'user']
     }];
 
     return this.prompt(prompts).then(function (props) {
@@ -31,6 +37,15 @@ module.exports = yeoman.Base.extend({
   },
 
   install: function () {
-    this.installDependencies();
+    console.log('Seguinte, agora vou rodar os seguintes comandos:')
+    console.log('rails new {{nome-do-projeto}} -d mysql');
+    console.log('gem install my_admin');
+    console.log('adicionar linha gem my_admin');
+    console.log('bundle install');
+    console.log('rails g my_admin:install');
+    console.log('Depois, vou criar todos os modelos selecionados.');
+    console.log('E então, você vai ter que ir até config/database.yml e editar login e senha do seu banco de dados.');
+    console.log('Vambora?!');
+    //this.installDependencies();
   }
 });

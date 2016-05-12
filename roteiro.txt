@@ -1,0 +1,20 @@
+rails new {{nome-do-projeto}} -d mysql
+
+gem install my_admin
+
+adicionar linha "gem 'my_admin'"
+
+bundle install
+
+rails g my_admin:install
+
+~~~
+escolher os modelos padrões
+()
+()
+()
+()
+~~~
+
+
+
