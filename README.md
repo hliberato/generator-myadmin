@@ -36,3 +36,5 @@ MIT © [Henrique Liberato](hliberato.github.io)
 [daviddm-url]: https://david-dm.org/hliberato/generator-myadmin
 [coveralls-image]: https://coveralls.io/repos/hliberato/generator-myadmin/badge.svg
 [coveralls-url]: https://coveralls.io/r/hliberato/generator-myadmin
+=======
+# generator-myadmin
