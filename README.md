@@ -1,5 +1,5 @@
 # generator-myadmin [![NPM version][npm-image]][npm-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
-> Generator for [my-admin](https://github.com/marcosvgs/my_admin), a RoR cms
+> Generator for [my-admin](https://github.com/marcosvgs/my_admin), a Ruby on Rails CMS
 
 An awesome generator for [my_admin](https://github.com/marcosvgs/my_admin) created by [Marcos Santos](https://github.com/marcosvgs/)
 
@@ -24,6 +24,10 @@ yo myadmin
  * Yeoman is a person with feelings and opinions, but is very easy to work with.
  * Yeoman can be too opinionated at times but is easily convinced not to be.
  * Feel free to [learn more about Yeoman](http://yeoman.io/).
+
+## Credits
+
+Thank's [Marcos Santos](https://github.com/marcosvgs) for all your hard work to create that awesome CMS
 
 ## License
 
