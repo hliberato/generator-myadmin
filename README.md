@@ -1,5 +1,5 @@
 # generator-myadmin [![NPM version][npm-image]][npm-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
-> Generator foy my-admin, a RoR cms
+> Generator foy [my-admin](https://github.com/marcosvgs/my_admin), a RoR cms
 
 ## Installation
 
