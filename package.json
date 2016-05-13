@@ -20,7 +20,9 @@
   "dependencies": {
     "yeoman-generator": "^0.23.0",
     "chalk": "^1.0.0",
-    "yosay": "^1.0.0"
+    "yosay": "^1.0.0",
+    "shelljs": "^0.7.0",
+    "fs-sync": "^1.0.2"
   },
   "devDependencies": {
     "yeoman-test": "^1.0.0",
