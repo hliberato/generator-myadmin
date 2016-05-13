@@ -3,7 +3,6 @@ var yeoman = require('yeoman-generator');
 var chalk = require('chalk');
 var yosay = require('yosay');
 var shell = require('shelljs');
-var fssync = require('fs-sync');
 
 module.exports = yeoman.Base.extend({
   
@@ -57,7 +56,8 @@ module.exports = yeoman.Base.extend({
         'Resume',
         'File',
         "Store",
-        'Galery',
+        'Gale
+        ry',
         'Pages',
         'FAQ',
         'About'

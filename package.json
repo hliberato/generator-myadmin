@@ -1,6 +1,6 @@
 {
   "name": "generator-myadmin",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Generator foy my-admin, a RoR cms",
   "homepage": "https://github.com/hliberato/generator-myadmin",
   "author": {
@@ -21,8 +21,7 @@
     "yeoman-generator": "^0.23.0",
     "chalk": "^1.0.0",
     "yosay": "^1.0.0",
-    "shelljs": "^0.7.0",
-    "fs-sync": "^1.0.2"
+    "shelljs": "^0.7.0"
   },
   "devDependencies": {
     "yeoman-test": "^1.0.0",
