@@ -1,3 +1,4 @@
+~~~ What's the name of your project?
 rails new {{nome-do-projeto}} -d mysql
 
 gem install my_admin
@@ -9,6 +10,7 @@ bundle install
 rails g my_admin:install
 
 ~~~
+Would you like to add some default models?
 escolher os modelos padrões
 ()
 ()
