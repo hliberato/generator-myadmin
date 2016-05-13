@@ -1,3 +1,6 @@
+# This project is still in development :)
+- [See our TODO list](https://github.com/hliberato/generator-myadmin/#todo)
+
 # generator-myadmin [![NPM version][npm-image]][npm-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
 > Generator for [my-admin](https://github.com/marcosvgs/my_admin), a Ruby on Rails CMS
 
@@ -17,6 +20,15 @@ Then generate your new project:
 ```bash
 yo myadmin
 ```
+
+## TODO
+* Generate the generator with the generator generator-generator ✓
+* Classify requirements ✓
+* Implement installer for Rails, Gems and my_admin ✓
+* Deploy at NPM ✓
+* classify models ✓
+* Implement installer for models
+* Discuss more automatic Gems to implement
 
 ## Getting To Know Yeoman
 
@@ -43,4 +55,3 @@ MIT © [Henrique Liberato](hliberato.github.io)
 [coveralls-image]: https://coveralls.io/repos/hliberato/generator-myadmin/badge.svg
 [coveralls-url]: https://coveralls.io/r/hliberato/generator-myadmin
 =======
-# generator-myadmin
