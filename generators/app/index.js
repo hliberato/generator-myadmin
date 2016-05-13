@@ -56,7 +56,7 @@ module.exports = yeoman.Base.extend({
         'Resume',
         'File',
         'Store',
-        'Galery',
+        'Gallery',
         'Pages',
         'FAQ',
         'About'
